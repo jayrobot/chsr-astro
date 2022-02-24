@@ -1,62 +1,51 @@
 ---
-// Component Imports
-import Tour from '../components/Tour.astro';
-// You can import components from any supported Framework here!
-import ReactCounter from '../components/ReactCounter.jsx';
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
-let title = 'My Astro Site';
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+// src/pages/index.astro
+import BaseLayout from "../Layouts/BaseLayout.astro"
+let title = '>Center for Human Services Research - University at Albany - SUNY - Home';
 ---
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>{title}</title>
-
-	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-	<style global>
-		@import "../styles/global.css";
-		@import "../styles/home.css";
-	</style>
-
-	<style>
-		header {
-			display: flex;
-			flex-direction: column;
-			gap: 1em;
-			max-width: min(100%, 68ch);
-		}
-	</style>
-</head>
-<body>
+<BaseLayout title={title}>
 	<main>
-		<header>
-			<div>
-				<img width="60" height="80" src="/assets/logo.svg" alt="Astro logo">
-				<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-			</div>
-		</header>
+		<div id="content">
+			<h2>Center For Human Services Research</h2>
+			<p>
+				The Center for Human Services Research (CHSR) has over 30 years of experience in 
+				social service research and evaluation. CHSR is dedicated to developing 
+				empirically-based knowledge to improve the design and delivery of services that 
+				address social issues and meet community needs in the Capital region, across New 
+				York State, and across the United States. We conduct evaluation research and 
+				design information systems to inform policymakers and service providers across a 
+				broad spectrum of fields serving vulnerable and marginalized populations using 
+				our sophisticated research, technical, and management skills. CHSR values 
+				integrity in its work and is dedicated to providing timely, accurate, and 
+				non-partisan information to guide best practice in the human services.
+			</p>
+			<p>
+				CHSR also houses the Data Management and Analytics Center (DMAC), which 
+				supports University at Albany researchers by providing consulting and more 
+				extensive services for analytical, survey design and implementation, research 
+				and methodology, and research technology needs. For more information about 
+				DMAC, please visit <a class="paragraph-text-link" href="/dmac/about">DMAC</a>.
+			</p>
 
-		<Tour />
-
-		<!--
-
-		You can also use imported framework components directly in your markup!
-		
-		Note: by default, these components are NOT interactive on the client.
-		The `:visible` directive tells Astro to make it interactive.
-		
-		See https://docs.astro.build/core-concepts/component-hydration/ 
-
-		-->
-
-		<ReactCounter client:visible />
+			<h2>OUR WORK</h2>
+			<p>
+				CHSR areas of inquiry and expertise cover a wide range of topics including 
+				education and early childhood development; children, family, and elder 
+				services; health behavior and services; economic and community development; 
+				and criminal and juvenile justice; for more information, see 
+				<a class="paragraph-text-link" href="/content_areas">Content Areas</a>. 
+				Our staff are skilled at qualitative and quantitative evaluation and research, 
+				program development, and system and software development; for more information, 
+				see <a class="paragraph-text-link" href="/skills_expertise">Skills &amp; Expertise</a>. 
+				CHSR has developed significant partnerships with several University entities
+				and with government offices and non-profit service providers throughout New York 
+				State, and has written successful grant applications for local, state, and federal 
+				funding.
+			</p>
+			<p>
+				For more information on CHSR’s past and current projects, please visit our
+				<a class="paragraph-text-link" href="/project_areas">project archive</a>.
+			</p>
+		</div>
 	</main>
-</body>
-</html>
+</BaseLayout>

@@ -1,0 +1,208 @@
+---
+// src/layouts/BaseLayout.astro
+const {title} = Astro.props;
+---
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
+
+	<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width">
+			<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta name="Description" content="Research at the University at Albany" />
+			<title>{title}</title>
+
+			<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+			<style global>
+				@import "../styles/style.css";
+			</style>
+	</head>
+
+	<body>
+			<!-- wrapper block -->
+			<div id="page">
+					<!-- holding block -->
+					<div id="wrapper">
+							<!-- header -->
+							<div id="header">
+									<div class="holder">
+											<div class="top-section">
+													<!-- logo -->
+													<h1 class="logo" title="Center for Human Services Research"
+															style="background-image:url(/assets/chsr_logo.jpg); margin-top:5px;height: 60px;width: 400px;">
+															<img src="/assets/chsr_logo.jpg" width="400" height="47" alt="" />
+													</h1>
+													<div class="side-block">
+															<div class="row">
+
+																	<!--========== Nav Top Right = = = = = -->
+
+																	<ul class="top-menu" style="width: 500px;">
+																			<li><a href="https://www.albany.edu/">University Home</a></li>
+																			<li><a href="https://www.albany.edu/directories.php">Directories</a></li>
+																			<li><a href="https://www.albany.edu/sitemap.php">A-Z Index</a></li>
+																			<li><a style="margin-top:-10px;" href="https://www.albany.edu/myualbany"><img
+																									src="https://www.albany.edu/hpassets/my-ualbany-icon.png" /></a></li>
+																	</ul>
+																	<!--========== Ent Div NAV Top Right = = = = = -->
+
+																	<!--========== Begin Search ==========-->
+																	<!-- search start -->
+																	<div class="search" style="text-align: right;">
+
+																			<!--========== Begin Search ==========-->
+																			<form action="search_results.php" id="cse-search-box" method="get"
+																					name="cse-search-box">
+																					<div class="search-bg">
+																							<input type="hidden" name="cof" value="FORID:11" />
+																							<input type="hidden" name="ie" value="UTF-8" />
+																							<input type="text" name="q" class="searchBox2" size="24" />
+																							<input src="https://www.albany.edu/Images/Header/btnSearch.gif" name="sa"
+																									type="image" value="Search" class="searchButton2"
+																									style="padding-left: 2px;" />
+																					</div>
+																					<div id="search_labels" style="padding-top: 2px; margin-right: 5px;">
+																							<input id="www" type="radio" name="cx"
+																									value="009452333206896616693:cupo60slpd4" checked="checked" />
+																							<label for="www"
+																									style="padding: 0; margin-left: -3px;font-size: .8em; vertical-align:middle; font-family: Verdana, Geneva, sans-serif">
+																									Search Center for Human Services Research</label>
+																							<input id="custom" type="radio" name="cx"
+																									value="009452333206896616693:abbjmkl5yry" />
+																							<label for="custom"
+																									style="padding: 0px 3px 0px 0px; margin-left: -3px;font-size: .8em; vertical-align:middle; font-family: Verdana, Geneva, sans-serif">
+																									UAlbany</label>
+																					</div>
+																			</form>
+																			<script type="text/javascript"
+																					src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+																			<!--========== End Search ==========-->
+
+																	</div>
+																	<!-- search end -->
+
+															</div>
+															<!-- DIV row - menu items and search form -->
+
+															<!-- submenu -->
+													</div>
+											</div>
+											<div class="main-gallery">
+													<!-- style="position: relative; top: -40px; margin-top: 16px; width: 960px;" -->
+													<div class="mask" style="height: 264px;">
+															<ul>
+																	<li style="display:block;"><a href="https://www.albany.edu/chsr/index.shtml"
+																					target="_blank">
+																					<img src="/assets/chsr_banner_top2.jpg" width="964" height="266" /></a></li>
+															</ul>
+													</div>
+											</div>
+
+
+									</div>
+							</div>
+							<!-- main block -->
+							<div id="main">
+									<div id="twocolumns">
+											
+											<!-- slot: your page content will be injected here. -->
+											<slot />
+
+											<!-- aside -->
+											<div class="aside">
+													<!-- Right Column Begins ---------------------->
+													<!-- Linkedin BOX BEGINS ------------------------------------------------>
+													<div class="box" style="padding-bottom: 16px; margin-top: -10px;">
+															<h2 class="border-gray-top">
+																<a href="https://www.linkedin.com/company/center-for-human-services-research">
+																	<span style="width: 149px; display: inline-block;">
+																		FOLLOW CHSR RESEARCH ON Linkedin
+																	</span>
+																	<img width="40" height="40" style="margin: 0px 0px -5px -20px;"
+																					alt="Linkedin logo" src="/assets/linkedIn-logo.png" />
+																	<strong>
+																		Click here to learn more about our recent research, evaluations,
+                                    analyses, and activities.
+																	</strong>
+																</a>
+															</h2>															
+													</div>
+													<!-- Linkedin BOX ENDS ------------------------------------------------>
+													<!-- SURVEY RESEARCH CENTER BEGIN ---------------------------->
+													<div class="box">
+															<h2 class="border-gray-top"><a href="https://www.albany.edu/chsr/dmac/about.shtml">Data
+																			Management and Analytics Center (DMAC)</a> <span style="font-size: 12px;"><a
+																					href="https://www.albany.edu/chsr/Program_Dev_Community_Engage.shtml"></a></span>
+															</h2>
+															<p>DMAC provides data management and analytics support to researchers at the University at
+																	Albany within the Center for Human Services Research. Our customized research support
+																	services include: consulting, research partnerships, and workshops.</p>
+													</div>
+													<!-- SURVEY RESEARCH CENTER ENDS ---------------------------->
+
+													<div class="contact box">
+															<h2 style="border-top: 10px solid #e4e2e2;">Contact Us</h2>
+
+															<p style="margin-top: 20px; padding-bottom: 15px;"> 
+																<strong>Center for Human Services Research</strong>
+																<br />
+																135 Western Avenue <br />
+																Albany, NY 12222 <br /> 
+																Phone: (518) 591-8615 <br />
+																Fax: (518) 442-5732 <br /> 
+																<a href="mailto:chsr@albany.edu">Email CHSR</a>
+																<br />
+																<br />
+																<a href="https://www.albany.edu/chsr/Staff.shtml">Staff Directory</a>
+															</p>
+													</div>
+											</div>
+											<!-- Aside DIV ENDS -->
+									</div>
+									<!-- sidebar -->
+									<div id="sidebar">
+											<!-- Getting Started BEGIN -->
+											<div class="heading-block">
+													<!-- OLD HEADING was background-image:url('includes/include_homepage_research_changes_lives.png -->
+													<h3 class="getting-started-text" style="background-image:url('https://www.albany.edu');">
+															Getting Started at UAlbany</h3>
+											</div>
+											<!-- Getting Started END -->
+											<!-- RedDot PAGE 32220 -->
+											<!-- Left Menu Include Begin -->
+											<ul class="side-menu">
+													<li><a href="/">Home</a></li>
+													<li><a href="/skills_expertise">Skills &amp; Expertise</a></li>
+													<li><a href="/content_areas">Content Areas</a></li>
+													<li><a href="/publications">Publications</a></li>
+													<li><a href="/staff">Staff Directory</a></li>
+													<li><a href="/contact_us">Contact Us </a></li>
+											</ul>
+											<!-- Left Menu Include Ends -->
+									</div>
+							</div>
+							<!-- footer -->
+							<div id="footer">
+									<address>
+											<strong>University at Albany</strong>, State University of New York · 1400 Washington Ave., ·
+											Albany, NY 12222 · Phone (518) 442-3300
+									</address>
+									<ul class="additional-menu">
+											<li><a href="https://www.albany.edu/contact.shtml">Contact Us</a></li>
+											<li><a href="https://www.albany.edu/main/employment.shtml">Jobs</a></li>
+											<!--<li><a href="https://www.albany.edu/emergency/index.php">SUNY NY-Alert</a></li>-->
+											<li><a href="https://police.albany.edu/ASR.shtml">Annual Security and Fire Safety Report</a>
+											</li>
+											<li><a href="https://wiki.albany.edu/x/IR7-AQ">Internet Privacy Policy</a></li>
+											<li><a href="https://www.albany.edu/emergency/index.php">UAlbany Alert</a></li>
+											<li><a href="https://www.albany.edu/veterans/">Veterans Affairs</a></li>
+											<li><a href="https://wiki.albany.edu/display/middlestates/Home">Middle States Self-Study</a>
+											</li>
+									</ul>
+									<a href="https://www.albany.edu/gogreen/index.shtml?WT.source=home" class="green-label">UAlbany is
+											Green!</a> <span>&copy;&nbsp;2020 University at Albany</span>
+							</div>
+					</div>
+			</div>
+	</body>
+</html>

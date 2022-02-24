@@ -1,15 +1,19 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
-  },
-  "devDependencies": {
-    "astro": "^0.23.0",
-    "@astrojs/renderer-react": "^0.5.0"
-  }
+	"name": "@example/starter",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"format": "pnpx prettier -w ."
+	},
+	"devDependencies": {
+		"@astrojs/renderer-react": "^0.5.0",
+		"astro": "^0.23.0"
+	},
+	"dependencies": {
+		"prettier-plugin-astro": "^0.0.12"
+	}
 }

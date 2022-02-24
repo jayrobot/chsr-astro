@@ -4,10 +4,15 @@
 }
 
 :root {
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+		sans-serif, Apple Color Emoji, Segoe UI Emoji;
 	font-size: 1rem;
 	--user-font-scale: 1rem - 16px;
-	font-size: clamp(0.875rem, 0.4626rem + 1.0309vw + var(--user-font-scale), 1.125rem);
+	font-size: clamp(
+		0.875rem,
+		0.4626rem + 1.0309vw + var(--user-font-scale),
+		1.125rem
+	);
 }
 
 body {
@@ -25,4 +30,59 @@ body {
 		background: #111827;
 		color: #fff;
 	}
+}
+
+.paragraph-text-link:link {
+	text-decoration: underline;
+	border-bottom: 3px solid #34075f;
+	font-size: 0.9em;
+	transition: all 0.25s linear;
+	position: relative;
+}
+
+.paragraph-text-link:hover {
+	background-color: #9c870e;
+	transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.paragraph-text-link:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #9c870e;
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	/* this is to match where the border is */
+	transform-origin: center;
+	transform: scale(0);
+	transition: 0.25s linear;
+	/*   will-change: transform; */
+}
+
+.paragraph-text-link:hover:before {
+	transform: scale(1);
+}
+
+p {
+	font-size: 1.1em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.additional-links li a {
+	font-weight: normal;
+}
+
+#main {
+	background-repeat: repeat-y;
+}
+
+.side-menu {
+	margin: 0;
+}
+
+.text-place {
+	margin-bottom: 10px;
 }
