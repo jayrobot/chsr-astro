@@ -1,0 +1,55 @@
+---
+// src/pages/index.astro
+import BaseLayout from "../../Layouts/BaseLayout.astro"
+import StaffCardList from "../../components/StaffCardList.astro"
+
+import json from "../../../Public/data/staff.json"
+// console.log(json);
+let saveJson = json;
+
+const admin = saveJson.filter(StaffMember  => {
+	return StaffMember.area === "Administration"
+});
+console.log(admin);
+// console.log(json);
+saveJson = json;
+
+const researchers = saveJson.filter(StaffMember => {
+	StaffMember.area === "Researchers"
+});
+console.log(researchers);
+// console.log(json);
+saveJson = json;
+
+const itstaff = saveJson.filter(StaffMember => {
+	StaffMember.area === "IT Staff"
+});
+console.log(itstaff);
+// console.log(json);
+saveJson = json;
+
+const interviewers = saveJson.filter(StaffMember => {
+	StaffMember.area === "Research Interviewers"
+});
+console.log(interviewers);
+// console.log(json);
+
+// const response = await fetch('../../Public/data/staff.json');
+
+// const data = await response.json();
+// Remember: Astro component scripts log to the CLI
+// console.log(data);
+
+let title = 'Center for Human Services Research - University at Albany - SUNY - Staff';
+---
+<BaseLayout title={title}>
+	<main>
+		<div id="content">
+			<h1>STAFF DIRECTORY</h1>
+			<StaffCardList json={admin} />
+			<StaffCardList json={researchers} />
+			<StaffCardList json={itstaff} />
+			<StaffCardList json={interviewers} />
+		</div>
+	</main>
+</BaseLayout>

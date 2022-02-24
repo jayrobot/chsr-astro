@@ -1,0 +1,25 @@
+---
+const {json} = Astro.props;
+console.log(json);
+// console.log(json[0].area);
+---
+<!-- <h2>{json[0].area}</h2> -->
+{json.map((staffMember) => (
+	<div class="card">
+		<a href={staffMember.path}>
+			<img src={staffMember.img} alt={staffMember.name2} />
+		</a>
+		<div class="bio-nametitle">
+			<a class="staff-name" href={staffMember.path}>{staffMember.name}</a>
+			<br />
+			<span class="staff-position">{staffMember.position}</span>
+			<p class="bio-info">
+				{staffMember.location}
+				<br />
+				{staffMember.phone}
+				<br />
+				<a style="font-weight:normal;" href="mailto:{staffMember.email}">{staffMember.email}</a>
+			</p>
+		</div>
+	</div>
+))}
