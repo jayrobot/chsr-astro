@@ -50,7 +50,7 @@ select {
 	padding: 0 9999px 10px;
 	border-bottom: 7px solid #fff;
 	/* Pre June 2015 background: #fad804 url(../hpassets/bg-header.png) repeat-x; */
-	background: url(/assets/homepages-spring-backgorund-header-2015-Spring.png)
+	background: url(./assets/homepages-spring-backgorund-header-2015-Spring.png)
 		repeat-x #fad804;
 }
 #header > .holder {
