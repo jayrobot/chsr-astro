@@ -1,44 +1,29 @@
 ---
-// src/pages/index.astro
-import BaseLayout from "../../Layouts/BaseLayout.astro"
+// Remember: Astro component scripts log to the CLI
+
+// src/pages/staff/index.astro
+import BaseLayout from "../../layouts/BaseLayout.astro"
 import StaffCardList from "../../components/StaffCardList.astro"
 
+// const response = await fetch('../../Public/data/staff.json');
+// const data = await response.json();
 import json from "../../../Public/data/staff.json"
-// console.log(json);
-let saveJson = json;
 
-const admin = saveJson.filter(StaffMember  => {
+const admin = json.filter(StaffMember  => {
 	return StaffMember.area === "Administration"
 });
-console.log(admin);
-// console.log(json);
-saveJson = json;
 
-const researchers = saveJson.filter(StaffMember => {
-	StaffMember.area === "Researchers"
+const researchers = json.filter(StaffMember => {
+	return StaffMember.area === "Researchers"
 });
-console.log(researchers);
-// console.log(json);
-saveJson = json;
 
-const itstaff = saveJson.filter(StaffMember => {
-	StaffMember.area === "IT Staff"
+const itstaff = json.filter(StaffMember => {
+	return StaffMember.area === "IT Staff"
 });
-console.log(itstaff);
-// console.log(json);
-saveJson = json;
 
-const interviewers = saveJson.filter(StaffMember => {
-	StaffMember.area === "Research Interviewers"
+const interviewers = json.filter(StaffMember => {
+	return StaffMember.area === "Research Interviewers"
 });
-console.log(interviewers);
-// console.log(json);
-
-// const response = await fetch('../../Public/data/staff.json');
-
-// const data = await response.json();
-// Remember: Astro component scripts log to the CLI
-// console.log(data);
 
 let title = 'Center for Human Services Research - University at Albany - SUNY - Staff';
 ---
@@ -46,10 +31,10 @@ let title = 'Center for Human Services Research - University at Albany - SUNY - 
 	<main>
 		<div id="content">
 			<h1>STAFF DIRECTORY</h1>
-			<StaffCardList json={admin} />
-			<StaffCardList json={researchers} />
-			<StaffCardList json={itstaff} />
-			<StaffCardList json={interviewers} />
+			<StaffCardList json={admin} area="Administration" />
+			<StaffCardList json={researchers} area="Researchers" />
+			<StaffCardList json={itstaff} area="IT Staff" />
+			<StaffCardList json={interviewers} area="Research Interviewers" />
 		</div>
 	</main>
 </BaseLayout>

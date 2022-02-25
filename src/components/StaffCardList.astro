@@ -1,9 +1,10 @@
 ---
-const {json} = Astro.props;
-console.log(json);
+const {json, area} = Astro.props;
+// console.log(json);
 // console.log(json[0].area);
 ---
-<!-- <h2>{json[0].area}</h2> -->
+<h2>{area}</h2>
+
 {json.map((staffMember) => (
 	<div class="card">
 		<a href={staffMember.path}>
@@ -18,7 +19,7 @@ console.log(json);
 				<br />
 				{staffMember.phone}
 				<br />
-				<a style="font-weight:normal;" href="mailto:{staffMember.email}">{staffMember.email}</a>
+				{staffMember.email && <a href="mailto:${staffMember.email}">Email {staffMember.name.substring(0, staffMember.name.indexOf(" "))}</a>}
 			</p>
 		</div>
 	</div>
