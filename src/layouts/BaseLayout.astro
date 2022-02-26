@@ -3,7 +3,7 @@
 const {title} = Astro.props;
 // import RelativeURL from RelativeURL;
 // const cssfile = new RelativeURL("../styles/style.css");
-const cssfile = Astro.Resolve("../styles/style.css")
+// const cssfile = Astro.Resolve("../styles/style.css")
 ---
 <html lang="en" xmlns="https://www.w3.org/1999/xhtml">
 
@@ -17,7 +17,7 @@ const cssfile = Astro.Resolve("../styles/style.css")
 
 			<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 			<style global>
-				@import {cssfile}
+				@import "../styles/style.css"
 			</style>
 	</head>
 
