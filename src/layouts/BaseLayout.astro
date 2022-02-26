@@ -1,6 +1,9 @@
 ---
 // src/layouts/BaseLayout.astro
 const {title} = Astro.props;
+// import RelativeURL from RelativeURL;
+// const cssfile = new RelativeURL("../styles/style.css");
+const cssfile = Astro.Resolve("../styles/style.css")
 ---
 <html lang="en" xmlns="https://www.w3.org/1999/xhtml">
 
@@ -14,7 +17,7 @@ const {title} = Astro.props;
 
 			<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 			<style global>
-				@import "../styles/style.css";
+				@import {cssfile}
 			</style>
 	</head>
 
@@ -29,8 +32,8 @@ const {title} = Astro.props;
 											<div class="top-section">
 													<!-- logo -->
 													<h1 class="logo" title="Center for Human Services Research"
-															style="background-image:url(./assets/chsr_logo.jpg); margin-top:5px;height: 60px;width: 400px;">
-															<img src="./assets/chsr_logo.jpg" width="400" height="47" alt="" />
+															style="background-image:url(/assets/chsr_logo.jpg); margin-top:5px;height: 60px;width: 400px;">
+															<img src="/assets/chsr_logo.jpg" width="400" height="47" alt="" />
 													</h1>
 													<div class="side-block">
 															<div class="row">
@@ -93,7 +96,7 @@ const {title} = Astro.props;
 															<ul>
 																	<li style="display:block;"><a href="https://www.albany.edu/chsr/index.shtml"
 																					target="_blank">
-																					<img src="./assets/chsr_banner_top2.jpg" width="964" height="266" /></a></li>
+																					<img src="/assets/chsr_banner_top2.jpg" width="964" height="266" /></a></li>
 															</ul>
 													</div>
 											</div>
@@ -119,7 +122,7 @@ const {title} = Astro.props;
 																		FOLLOW CHSR RESEARCH ON Linkedin
 																	</span>
 																	<img width="40" height="40" style="margin: 0px 0px -5px -20px;"
-																					alt="Linkedin logo" src="./assets/linkedIn-logo.png" />
+																					alt="Linkedin logo" src="/assets/linkedIn-logo.png" />
 																</a>
 															</h2>															
 															<p>
@@ -176,11 +179,11 @@ const {title} = Astro.props;
 											<!-- Left Menu Include Begin -->
 											<ul class="side-menu">
 													<li><a href="/">Home</a></li>
-													<li><a href="./skills_expertise">Skills &amp; Expertise</a></li>
-													<li><a href="./content_areas">Content Areas</a></li>
-													<li><a href="./publications">Publications</a></li>
-													<li><a href="./staff">Staff Directory</a></li>
-													<li><a href="./contact_us">Contact Us </a></li>
+													<li><a href="/skills_expertise">Skills &amp; Expertise</a></li>
+													<li><a href="/content_areas">Content Areas</a></li>
+													<li><a href="/publications">Publications</a></li>
+													<li><a href="/staff">Staff Directory</a></li>
+													<li><a href="/contact_us">Contact Us </a></li>
 											</ul>
 											<!-- Left Menu Include Ends -->
 									</div>
