@@ -31,6 +31,7 @@ const {title} = Astro.props;
 									<div class="holder">
 											<div class="top-section">
 													<!-- logo -->
+													<a href="/"
 													<h1 class="logo" title="Center for Human Services Research"
 															style="background-image:url(/assets/chsr_logo.jpg); margin-top:5px;height: 60px;width: 400px;">
 															<img src="/assets/chsr_logo.jpg" width="400" height="47" alt="" />
@@ -94,7 +95,7 @@ const {title} = Astro.props;
 													<!-- style="position: relative; top: -40px; margin-top: 16px; width: 960px;" -->
 													<div class="mask" style="height: 264px;">
 															<ul>
-																	<li style="display:block;"><a href="https://www.albany.edu/chsr/index.shtml"
+																	<li style="display:block;"><a href="/"
 																					target="_blank">
 																					<img src="/assets/chsr_banner_top2.jpg" width="964" height="266" /></a></li>
 															</ul>
@@ -137,9 +138,12 @@ const {title} = Astro.props;
 													<!-- Linkedin BOX ENDS ------------------------------------------------>
 													<!-- SURVEY RESEARCH CENTER BEGIN ---------------------------->
 													<div class="box">
-															<h2 class="border-gray-top"><a href="https://www.albany.edu/chsr/dmac/about.shtml">Data
-																			Management and Analytics Center (DMAC)</a> <span style="font-size: 12px;"><a
-																					href="https://www.albany.edu/chsr/Program_Dev_Community_Engage.shtml"></a></span>
+															<h2 class="border-gray-top">
+															<a href="/dmac">
+																Data Management and Analytics Center (DMAC)</a> 
+																<span style="font-size: 12px;">
+																	<a href="https://www.albany.edu/chsr/Program_Dev_Community_Engage.shtml"></a>
+																</span>
 															</h2>
 															<p>DMAC provides data management and analytics support to researchers at the University at
 																	Albany within the Center for Human Services Research. Our customized research support
@@ -160,7 +164,7 @@ const {title} = Astro.props;
 																<a href="mailto:chsr@albany.edu">Email CHSR</a>
 																<br />
 																<br />
-																<a href="https://www.albany.edu/chsr/Staff.shtml">Staff Directory</a>
+																<a href="/Staff">Staff Directory</a>
 															</p>
 													</div>
 											</div>
