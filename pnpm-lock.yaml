@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@astrojs/renderer-react': ^0.5.0
-  astro: 0.23.1
+  astro: 0.23.0
   prettier-plugin-astro: ^0.0.12
   relative-url-interface: ^0.2.0
 
@@ -12,7 +12,7 @@ dependencies:
 
 devDependencies:
   '@astrojs/renderer-react': 0.5.0
-  astro: 0.23.1
+  astro: 0.23.0
 
 packages:
 
@@ -648,10 +648,6 @@ packages:
     resolution: {integrity: sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==}
     dev: true
 
-  /@types/yargs-parser/20.2.1:
-    resolution: {integrity: sha512-7tFImggNeNBVMsn0vLrpn1H1uPrUBdnARPTpZoitY37ZrdJREzf7I16tMrlK3hen349gr1NYh8CmZQa7CTG6Aw==}
-    dev: true
-
   /@vitejs/plugin-vue/2.2.2_vite@2.8.4+vue@3.2.31:
     resolution: {integrity: sha512-3C0s45VOwIFEDU+2ownJOpb0zD5fnjXWaHVOLID2R1mYOlAx3doNBFnNbVjaZvpke/L7IdPJXjpyYpXZToDKig==}
     engines: {node: '>=12.0.0'}
@@ -808,8 +804,8 @@ packages:
       util: 0.12.4
     dev: true
 
-  /astro/0.23.1:
-    resolution: {integrity: sha512-iieMjkqTVA9zAG7VvI3ckDHlQVHym79WCkxxhICoNKrPt2cq6PMZK/lqVIJZzTtIudMdnaHnH1KHsxHTN4AI/A==}
+  /astro/0.23.0:
+    resolution: {integrity: sha512-DdoxHDScUiDkHKahZlgyPyHxNzcby/CGt6wux2iErds7w5syQhTi27/QoZmKGCpPDLwur0ksSWbSN150nR1uRw==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -828,7 +824,6 @@ packages:
       '@proload/plugin-tsm': 0.1.1_@proload+core@0.2.2
       '@types/babel__core': 7.1.18
       '@types/debug': 4.1.7
-      '@types/yargs-parser': 20.2.1
       '@web/parse5-utils': 1.3.0
       ci-info: 3.3.0
       common-ancestor-path: 1.0.1
@@ -842,8 +837,8 @@ packages:
       htmlparser2: 7.2.0
       kleur: 4.1.4
       magic-string: 0.25.7
-      micromorph: 0.0.2
       mime: 3.0.0
+      morphdom: 2.6.1
       parse5: 6.0.1
       path-to-regexp: 6.2.0
       postcss: 8.4.6
@@ -2751,10 +2746,6 @@ packages:
       braces: 3.0.2
       picomatch: 2.3.1
 
-  /micromorph/0.0.2:
-    resolution: {integrity: sha512-hfy/OA8rtwI/vPRm4L6a3/u6uDvqsPmTok7pPmtfv2a7YfaTVfxd9HX2Kdn/SZ8rGMKkKVJ9A0WcBnzs0bjLXw==}
-    dev: true
-
   /mime/1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
@@ -2800,6 +2791,10 @@ packages:
     resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
     engines: {node: '>=10'}
     hasBin: true
+    dev: true
+
+  /morphdom/2.6.1:
+    resolution: {integrity: sha512-Y8YRbAEP3eKykroIBWrjcfMw7mmwJfjhqdpSvoqinu8Y702nAwikpXcNFDiIkyvfCLxLM9Wu95RZqo4a9jFBaA==}
     dev: true
 
   /mri/1.2.0:
