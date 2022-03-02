@@ -1,0 +1,837 @@
+[
+	{
+		"name": "Margaret Gullick,Ph.D.",
+		"name2": "Margaret Gullick",
+		"position": "Director",
+		"area": "Administration",
+		"location": "Richardson Hall, Room 321",
+		"phone": "(518) 591-8749",
+		"email": "mgullick@albany.edu",
+		"path": "/staff/mgullick",
+		"img": "/assets/headshots/mgullick.jpg",
+		"specializations": [
+			{ "name": "Cognitive Neuroscience" },
+			{ "name": "Cognitive Psychology" }
+		],
+		"projects": [
+			{ "name": "ECHO Collaborative", "path": "/echo" },
+			{ "name": "Her Justice", "path": "/herjustice" },
+			{ "name": "Healthy Families New York Evaluation", "path": "/hfny" },
+			{ "name": "MRT Supportive Housing Initiative", "path": "/mrt" },
+			{ "name": "SAMHSA System of Care Expansion Grants", "path": "/achieve" }
+		],
+		"bio": [
+			{
+				"p1": "Margaret joined CHSR in 2017 as a researcher on the Healthy Families New York project. Before making her way to CHSR, Margaret was a postdoctoral research associate for the Developmental Cognitive Neuroscience Lab at Northwestern University and the Brain Development Lab at the University of Texas at Austin. Her previous research focused on examining how children’s educational outcomes are impacted and predicted by individual differences in brain structure and function, socio-economic status, and skill, using behavioral and brain imaging methodologies. This work has been published in journals such as Developmental Science, Journal of Cognitive Neuroscience, and Learning and Individual Differences."
+			},
+			{
+				"p2": "Margaret received her Bachelor’s degree in Psychology and History from Wesleyan University and her PhD in Cognitive Neuroscience from Dartmouth College."
+			}
+		]
+	},
+	{
+		"name": "Rose Greene",
+		"name2": "Rose Greene",
+		"position": "Director Emeritus",
+		"area": "Administration",
+		"location": "",
+		"phone": "",
+		"email": "",
+		"path": "/staff/rgreene",
+		"img": "/assets/headshots/RG_big.JPG"
+	},
+	{
+		"name": "Erin Berical",
+		"name2": "Erin Berical",
+		"position": "Assistant Director",
+		"area": "Administration",
+		"location": "Richardson Hall, Room 389",
+		"phone": "(518) 591-8615",
+		"email": "eberical@albany.edu",
+		"path": "/staff/eberical",
+		"img": "/assets/headshots/eberical_new.jpg",
+		"specializations": [
+			{ "name": "Maternal and Child Health" },
+			{ "name": "Child Social and Emotional Development" },
+			{ "name": "Community and Equity Development" },
+			{ "name": "Training Evaluation and Workforce Competency Development" }
+		],
+		"projects": [
+			{
+				"name": "New York State Birth Through Five Preschool Development Grant",
+				"path": "/preschooldev"
+			},
+			{ "name": "Healthy Families New York Evaluation", "path": "/hfny" },
+			{ "name": "Albany County Equity Agenda", "path": "/albanycountyequity" },
+			{
+				"name": "Albany County Human Services Department Evaluation",
+				"path": "/albcntyeval"
+			}
+		],
+		"bio": [
+			{
+				"p1": "Erin is currently overseeing the New York State Birth Through Five Preschool Development Grant Needs Assessment. She provides training evaluation and worker competency development within the Healthy Families New York evaluation project. She has also developed an Equity Agenda Strategic Plan for county government and coordinated a large-scale Time and Motion study for OPWDD. Before coming to CHSR, she provided research support to a longitudinal study following children from birth to age 3 regarding a number of developmental, social, and educational outcomes. She also provided support and resources to new mothers who were experiencing a variety of mental health challenges, including postpartum depression. Her background includes providing mental health counseling and substance abuse prevention programs for students in grades K-12. She also provided program evaluation, training, consultation, and technical assistance to school district personnel across New York State regarding best practices in educating students with autism spectrum disorders."
+			},
+			{
+				"p2": "Erin received her Bachelor’s Degree in Psychology and English from the University of Rochester. She received her Master’s Degree in School Counseling from the College of Saint Rose."
+			}
+		]
+	},
+	{
+		"name": "Denise Carner",
+		"name2": "Denise Carner",
+		"position": "Finance Manager",
+		"area": "Administration",
+		"location": "Richardson Hall, Room 386",
+		"phone": "(518) 442-5410",
+		"email": "dcarner@albany.edu",
+		"path": "/staff/dcarner",
+		"img": "/assets/headshots/dcarner_new.jpg",
+		"specializations": [{ "name": "Finance Manager" }],
+		"projects": [{ "name": "All projects", "path": "" }],
+		"bio": [
+			{
+				"p1": "Denise manages the fiscal operations over a portfolio of grants and contracts from various federal, state, and local sponsors. She handles the development, preparation, and monitoring of budgets; establishes monthly reports; and keeps programs appraised of spending issues. Denise serves as a fiscal liaison with Research Foundation offices and sponsor representatives, and she handles all labor distribution for the Personnel department as well as the hiring and recruitment process."
+			},
+			{
+				"p2": "Denise has been employed with the Research Foundation for over twenty years; she has been with CHSR since 2007."
+			}
+		]
+	},
+	{
+		"name": "Camille Barnes",
+		"name2": "Camille Barnes",
+		"position": "Research Scientist, Research Professor",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 309",
+		"phone": "(518) 442-3798",
+		"email": "cbarnes@albany.edu",
+		"path": "/staff/cbarnes",
+		"img": "/assets/headshots/CBarnes.JPG",
+		"specializations": [
+			{ "name": "Children's Mental Health" },
+			{ "name": "Social/Personality Psychology" }
+		],
+		"projects": [
+			{ "name": "Healthy Families New York Evaluation", "path": "/hfny" },
+			{ "name": "MRT Supportive Housing Initiative", "path": "/mrt" },
+			{ "name": "SAMHSA System of Care Expansion Grants", "path": "/achieve" }
+		],
+		"bio": [
+			{
+				"p1": "Camille joined CHSR in 2011. She is currently leading the evaluation for SAMHSA System of Care Expansion Grants for New York State (NYS SOC) and Cayuga County (Cayuga County FAST). Camille has been involved in a number of other CHSR projects, including NYS Success, Albany Citizen's Police Review Board, and Qualitative Research on Housing Needs of Grandfamilies. She is experienced in quantitative and qualitative data collection and analysis."
+			},
+			{
+				"p2": "Camille received her Bachelor’s degree in Psychology and a Concentration in Environmental Studies from Villanova University. She completed her Ph.D. in Social/Personality Psychology at the University at Albany, SUNY."
+			}
+		]
+	},
+	{
+		"name": "Tyler Bellick",
+		"name2": "Tyler Bellick",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 315",
+		"phone": "(518) 442-3870",
+		"email": "tbellick@albany.edu",
+		"path": "/staff/tbellick",
+		"img": "/assets/headshots/tbellick_staffprofile.jpg",
+		"specializations": [
+			{ "name": "Criminology" },
+			{ "name": "Criminal Justice Policy" },
+			{ "name": "Urban Sociology" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Tyler joined CHSR in 2020. He is currently working on the Preschool Development Grant Birth Through Five Initiative. He is experienced in mixed-methods including experimental audits, qualitative interviews, fieldwork, and data analysis."
+			},
+			{
+				"p2": "Tyler received his Bachelor’s degree in Sociology and Criminal Justice from the University at Albany, SUNY; he completed his Master’s degree in Sociology at the University at Albany, SUNY where he is also a Ph.D. Candidate."
+			}
+		]
+	},
+	{
+		"name": "Mandi Breen",
+		"name2": "Mandi Breen",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 383",
+		"phone": "(518) 591-5765",
+		"email": "mlbreen@albany.edu",
+		"path": "/staff/mlbreen",
+		"img": "/assets/headshots/mbreen_new2.jpg",
+		"specializations": [{ "name": "Survey Development" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Mandi joined CHSR in 2015. She is currently leading the National Youth in Transition Database project and supporting the Kinship Navigator System of Care evaluation. Mandi has been involved in a number of other CHSR projects, including the Survey Research Center and the Office of Children and Family’s Prevention Database. She is experienced in survey development, longitudinal tracking, and substantive and copy editing."
+			},
+			{
+				"p2": "Mandi received her Bachelor’s degree in English from the University of California: Davis, and earned her Master’s degree in Political Psychology from Stony Brook University."
+			}
+		]
+	},
+	{
+		"name": "Christine Callahan, PhD",
+		"name2": "Christine Callahan",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 312",
+		"phone": "(518) 442-5736",
+		"email": "ccallahan@albany.edu",
+		"path": "/staff/christine_callahan",
+		"img": "/assets/headshots/ccallahan.jpg",
+		"specializations": [
+			{ "name": "Social Work" },
+			{ "name": "Financial Social Work" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Christine Callahan joined CHSR in 2019 on a part-time basis and shares her time between CHSR and the University of Maryland School of Social Work. She is currently involved in Healthy Families New York, working on rolling out a financial literacy/financial stability project with families and home visitors. She is experienced in financial empowerment research, training, and programming, especially with vulnerable populations. She previously worked as an oncology social worker in a federal research hospital setting for 20+ years and is skilled in clinical interventions with individuals, families, and groups."
+			},
+			{
+				"p2": "Christine received her BA in Communications from Houghton College; her Master of Social Work from Virginia Commonwealth University; and her PhD in Social Work from The Catholic University of America."
+			}
+		]
+	},
+	{
+		"name": "Jennifer Ciccone",
+		"name2": "Jennifer Ciccone",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 320",
+		"phone": "(518) 442-5778",
+		"email": "jciccone2@albany.edu",
+		"path": "/staff/jciccone",
+		"img": "/assets/headshots/jenny2.jpg",
+		"specializations": [{ "name": "Data Collection" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Jennifer first joined CHSR in 2007, then again in 2015. She is currently working on two SAMHSA evaluations: NYS Systems of Care and Cayuga County FAST. Jennifer has been involved in a number of other CHSR projects, including Healthy Families New York. She is experienced in conducting child and family interviews."
+			},
+			{
+				"p2": "Jennifer received her Bachelor’s degree in Criminal Justice from Radford University and her Master’s degree in Criminal Justice from the University at Albany, SUNY."
+			}
+		]
+	},
+	{
+		"name": "Sarah Drazek",
+		"name2": "Sarah Drazek",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 304",
+		"phone": "(518) 442-5464",
+		"email": "sdrazek@albany.edu",
+		"path": "/staff/sdrazek",
+		"img": "/assets/headshots/sarahprofiledrazek2.jpg",
+		"specializations": [
+			{ "name": "Data Collection and Management" },
+			{ "name": "Community Health" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Sarah joined CHSR in 2017. She is currently working on the New York State Delivery System Reform Incentive Payment (DSRIP) implementation and process evaluation, the Office of Victim Services (OVS) Behavioral Health Needs of Victims of Domestic Violence in Housing Programs evaluation, as well as assisting with the OVS Training Needs Assessment and SAMHSA's NYS SOC. Sarah has been involved in a number of other CHSR projects, including Cayuga County: Families Access to Services Team (FAST), NYS System of Care and the ECHO Collaborative. She is experienced in mixed-methods research and program evaluation with a primary focus on data collection efforts (interviews, focus groups, observations, survey design) and qualitative data analysis."
+			},
+			{
+				"p2": "Sarah received her Bachelor's degree in Sociology and Health and Human Services from the University at Buffalo, SUNY; she received her Master's degree in Community Health from SUNY Cortland."
+			}
+		]
+	},
+	{
+		"name": "Susan Ehrhard-Dietzel, Ph.D.",
+		"name2": "Susan Ehrhard-Dietzel",
+		"position": "Senior Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 314A",
+		"phone": "(518) 442-5381",
+		"email": "sdietzel@albany.edu",
+		"path": "/staff/sdietzel",
+		"img": "/assets/headshots/sdietzel2.jpg",
+		"specializations": [{ "name": "Criminal Justice" }],
+		"projects": [
+			{
+				"name": "Albany Citizen's Police Review Board (CPRB)",
+				"path": "/cprb"
+			},
+			{ "name": "Albany County Equity Agenda", "path": "/albanycountyequity" },
+			{
+				"name": "Albany County Juvenile Detention Alternatives Initiative (JDAI)",
+				"path": "/jdai_project"
+			},
+			{
+				"name": "Domestic Violence Homicide Prevention Initiative",
+				"path": "/domesticviolencehp"
+			},
+			{
+				"name": "Front End Juvenile Justice Reform Initiative ",
+				"path": "/front_end_juvenile_justice"
+			},
+			{ "name": "Healthy Families New York Evaluation", "path": "/hfny" },
+			{
+				"name": "Innovations in Victim Services for Underserved Populations",
+				"path": "/innovaserv"
+			},
+			{ "name": "Project Growth", "path": "/projectgrowth" },
+			{ "name": "Rural Law Initiative Collaboration", "path": "/rurallawinit" },
+			{ "name": "Sanctuary Model Outcome Evaluation", "path": "/sanctuary" },
+			{
+				"name": "Evaluation of the Summer Youth Employment Program",
+				"path": "/syep_2019"
+			},
+			{
+				"name": "Victim Legal Assistance Network Development",
+				"path": "/vland1"
+			}
+		],
+		"bio": [
+			{
+				"p1": "Susan joined CHSR as the lead analyst on the evaluation of the Sanctuary Model. She is currently leading the Victim Legal Assistance Network Development Project and the Juvenile Detention Alternatives Initiative. Prior to joining CHSR, Susan worked for the New York State Office of Children and Family Services where she collaborated with CHSR on the Healthy Families New York Evaluation. Her research experience involves work on projects in a number of areas including child maltreatment, juvenile delinquency, and capital punishment. Susan is experienced in quantitative and qualitative methods, including sampling design, instrument development, fieldwork, and data analysis; she has published in peer reviewed journals."
+			},
+			{
+				"p2": "Susan received her Bachelor’s degree in Sociology from the State University of New York at Geneseo; she completed her Master’s degree and Ph.D. in Criminal Justice at the University at Albany, SUNY."
+			}
+		]
+	},
+	{
+		"name": "Samantha Gerken, M.S.",
+		"name2": "Samantha Gerken",
+		"position": "Project Staff Associate",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 390",
+		"phone": "(518) 442-1434",
+		"email": "sbordoff@albany.edu",
+		"path": "/staff/sam_gerken",
+		"img": "/assets/headshots/sam_gerken.png",
+		"specializations": [
+			{ "name": "Child Development" },
+			{ "name": "Data Analysis" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Samantha joined CHSR in 2019. She is currently the Early Childhood Policy and Data Analyst on the Preschool Development Grant Birth Through Five project. She is experienced in quantitative and qualitative research methods, and program evaluation."
+			},
+			{
+				"p2": "Samantha is currently a Doctoral Candidate in Educational Psychology and Methodology at SUNY Albany. She received her Bachelor's Degree in Psychology with a minor in Mathematics from Hofstra University and her Master's in Educational Psychology and Methodology from SUNY Albany."
+			}
+		]
+	},
+	{
+		"name": "Thomas LaPorte, PhD.",
+		"name2": "Thomas LaPorte",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 317",
+		"phone": "(518) 437-3696",
+		"email": "tlaporte@albany.edu",
+		"path": "/staff/tlaporte",
+		"img": "/assets/headshots/tlaporte_staffprofile.jpg",
+		"specializations": [
+			{ "name": "Youth and Family Development" },
+			{ "name": "Service Coordination" }
+		],
+		"projects": [
+			{ "name": "SAMHSA System of Care Expansion Grants", "path": "/achieve" }
+		],
+		"bio": [
+			{
+				"p1": "Tom joined CHSR in 2017. He currently leads the New York City Department of Health and Mental Hygiene High Fidelity Wraparound project and works on the Greater Rochester Health Foundation opioid prevention project. Tom has been involved in a number of other CHSR projects, including SAMHSA System of Care Expansion projects, the Partnership for Success project, and the Small Scale Time and Motion Study with OPWDD. He is experienced in mixed methods, community-based participatory action research, and meta-analysis/evaluation."
+			},
+			{
+				"p2": "Tom received his Bachelor’s degree in Psychology and Policy Studies from Syracuse University. He completed a Master’s degree in Clinical and Community Psychology, a Ph.D. in Health Psychology with a concentration in Community Psychology, and a Graduate Certificate in Nonprofit Management from the University of North Carolina at Charlotte."
+			}
+		]
+	},
+	{
+		"name": "Ruth Lindenfelser, LMSW",
+		"name2": "Ruth Lindenfelser",
+		"position": "Senior Research Support Specialist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 316",
+		"phone": "(518) 591-8732",
+		"email": "rlindenfelser@albany.edu",
+		"path": "/staff/rlindenfelser",
+		"img": "/assets/headshots/rlindenfelser_spp.jpg",
+		"specializations": [
+			{ "name": "Treatment and research involving vulnerable populations" },
+			{ "name": "Data collection methodology" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Ruth Lindenfelser joined CHSR in 2014. She is currently working on the National Youth in Transition Database project and the SAMHSA System of Care evaluation. Her project responsibilities have focused on qualitative and quantitative data collection, data analysis, database management and project management and interviewer training and oversight."
+			},
+			{
+				"p2": "Ruth has been involved in a number of other CHSR projects, including Kinship Navigator and MRT Supportive Housing. She is experienced in both clinical work and research with vulnerable populations; database management, quantitative and qualitative data collection, data analysis and project management."
+			},
+			{
+				"p3": "Ruth received her Bachelor’s degree in Political Science from the State University of New York at Purchase; she completed her Master’s in Social Work at the University at Albany and is a New York State licensed Social Worker."
+			}
+		]
+	},
+	{
+		"name": "Sandra McGinnis, Ph.D",
+		"name2": "Sandra McGinnis",
+		"position": "Senior Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 314",
+		"phone": "(518) 442-5579",
+		"email": "smcginnis@albany.edu",
+		"path": "/staff/smcginnis",
+		"img": "/assets/headshots/SMcGinnis_spp.jpg",
+		"specializations": [
+			{ "name": "Child and Family Sociology" },
+			{ "name": "Health Services Research" }
+		],
+		"projects": [
+			{
+				"name": "Albany School Improvement Grant Program Evaluation",
+				"path": "/sig"
+			},
+			{
+				"name": "Center of Excellence for Maternal and Infant Health",
+				"path": "/coe"
+			},
+			{
+				"name": "Evaluation of People Advancing Through Treatment and Housing (PATH)",
+				"path": "/path"
+			},
+			{ "name": "Greater Rochester Opioid Prevention", "path": "/rochopioid" },
+			{ "name": "Healthy Families New York Evaluation", "path": "/hfny" },
+			{ "name": "MRT Supportive Housing Initiative", "path": "/mrt" },
+			{ "name": "Partnership for Success", "path": "/pfs" },
+			{ "name": "OPWDD Direct Care Employee Trust Survey", "path": "/opwdd" },
+			{ "name": "Spring for Hope Evaluation", "path": "/spring_for_hope" },
+			{
+				"name": "Evaluation of the Summer Youth Employment Program",
+				"path": "/syep_2019"
+			},
+			{
+				"name": "Validation of the Coordinated Assessment System Tool",
+				"path": "/validation"
+			}
+		],
+		"bio": [
+			{
+				"p1": "Sandra joined CHSR in 2013 as the lead analyst on the Albany School Improvement Grant Program Evaluation, and the Evaluation of People Advancing through Treatment and Housing (PATH). Before coming to CHSR, Sandra spent ten years as a research associate at the Center for Health Workforce Studies in the School of Public Health at the University at Albany. Her research experience includes projects relating to child outcomes, family formation, public health, aging, workforce diversity, emergency medical services, and supply-demand modeling. Sandra has worked extensively with the analysis of existing large-scale datasets and with survey design and administration for primary data collection. She has authored or co-authored numerous peer-reviewed publications in journals as diverse as Journal of Marriage and Family, Journal of Evaluation in Clinical Practice, and Anesthesiology."
+			},
+			{
+				"p2": "Sandra received her Bachelor’s degree in Psychology and Sociology from Wilkes University in Wilkes-Barre, Pennsylvania, and completed her Ph.D. in Sociology and a Certificate of Graduate Studies in Demography at the University at Albany, SUNY."
+			}
+		]
+	},
+	{
+		"name": "Holly Meredith, M.S.",
+		"name2": "Holly Meredith",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 390",
+		"phone": "(518) 442-1429",
+		"email": "hmeredith@albany.edu",
+		"path": "/staff/hmeredith",
+		"img": "/assets/headshots/hmeredith2.jpg",
+		"specializations": [
+			{ "name": "Educational Psychology and Methodology" },
+			{ "name": "Child and Adolescent Development" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Holly joined CHSR in 2019. She is currently working on the Preschool Development Grant Birth Through Five initiative and the NYS Kinship Navigator evaluation project. She is experienced in mixed-methods program evaluation including focus groups, interviews, survey design, and data analysis."
+			},
+			{
+				"p2": "Holly received her Bachelor’s degree in Psychology from New York University; she completed her Master’s degree in Educational Psychology and Methodology at the University at Albany, SUNY where she is also a Ph.D. candidate."
+			}
+		]
+	},
+	{
+		"name": "Mir Nahid Mahmud",
+		"name2": "Mir Nahid Mahmud",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 313",
+		"phone": "(518) 442-5731",
+		"email": "nmahmud@albany.edu",
+		"path": "/staff/nmahmud",
+		"img": "/assets/headshots/nahidwebsite4.jpg",
+		"specializations": [
+			{ "name": "Empirical Econometrics" },
+			{ "name": "Policy Evaluation" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Nahid joined CHSR in 2018. He is currently working in the Medicaid Redesign Team Supporting Housing Project and the Healthy Families New York project. He is experienced in quantitative methods, including econometric modeling and policy evaluation."
+			},
+			{
+				"p2": "Nahid received his Master’s degree in Economics from the University of Warwick; He completed Ph.D. in Economics with a concentration in Health Economics from the University at Albany, SUNY."
+			}
+		]
+	},
+	{
+		"name": "Corinne Noble",
+		"name2": "Corinne Noble",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 310",
+		"phone": "(518) 591-8785",
+		"email": "cnoble@albany.edu",
+		"path": "/staff/cnoble",
+		"img": "/assets/headshots/Corinne_Noble.JPG",
+		"specializations": [{ "name": "Data Collection and Management" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Corinne Noble joined CHSR in 2005. She is currently involved in Healthy Families New York, where she provides support and training to HFNY staff. Corinne has been involved in a number of other CHSR projects, including the HFNY Randomized Controlled Trial and the Menu Labeling Evaluation. She is experienced in qualitative methods, including focus groups and interviews."
+			},
+			{
+				"p2": "Corinne received her Bachelor’s and Master’s degree in Psychology from the Universidad Argentina J. F. Kennedy - Buenos Aires, Argentina."
+			}
+		]
+	},
+	{
+		"name": "Sarah Rain",
+		"name2": "Sarah Rain",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 384",
+		"phone": "(518) 437-3695",
+		"email": "srain@albany.edu",
+		"path": "/staff/srain",
+		"img": "/assets/headshots/SR_big.JPG",
+		"specializations": [{ "name": "Sociology" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Sarah joined CHSR in 2007. She is currently leading the implementation and process study for the New York State Delivery System Reform Incentive Payment evaluation, which focuses on changes to Medicaid services. Sarah has been involved in a number of other CHSR projects focused on child maltreatment prevention and community development. She has experience with a number of quantitative and qualitative data collection and analysis methods, as well as research design and implementation."
+			},
+			{
+				"p2": "Sarah received her Bachelor’s degree in Sociology, Comparative Cultures, and Environmental Studies from Alfred University and attended Indiana University for graduate work in Sociology."
+			}
+		]
+	},
+	{
+		"name": "Maile Ray, D.Sc.",
+		"name2": "Maile Ray",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 313",
+		"phone": "(518) 442-5346",
+		"email": "mray2@albany.edu",
+		"path": "/staff/maileray",
+		"img": "/assets/headshots/maileyray2.jpg",
+		"specializations": [
+			{ "name": "Epidemiology" },
+			{ "name": "Social and Behavioral Sciences" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Maile joined CHSR in 2019. She currently leads the Healthy Families New York (HFNY) Curriculum Committee, which seeks to review and revise the HFNY-approved primary curricula and to identify more curricula which serve special interest groups. She also has taken the lead in writing a WhitePaper which proposes to include out-of-home visits (including virtual visits) in the home visit rate to better enable HFNY to “meet families where they are at.” She also performs reporting and analysis for the federal Maternal Infant and Early Childhood Home Visiting program (MIECHV) to ensure that our HFNY programs meet critical program benchmarks. Additionally, she is involved in assisting with analysis and editing for the Medicaid Redesign Team Supportive Housing Program. She is experienced in epidemiology, social and behavioral sciences, and biostatistics."
+			},
+			{
+				"p2": "Maile received her B.A. in Sociocultural Anthropology from Yale University; she completed her Master’s Degree in Public Health (MPH) in Epidemiology from the Yale School of Public Health and her Doctor of Science (D.Sc.) in Epidemiology from the Harvard T.H. Chan School of Public Health."
+			}
+		]
+	},
+	{
+		"name": "Moira Riley, Ph.D.",
+		"name2": "Moira Riley, Ph.D.",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 311",
+		"phone": "(518) 442-3658",
+		"email": "mrriley@albany.edu",
+		"path": "/staff/mriley",
+		"img": "/assets/headshots/mriley2.jpg",
+		"specializations": [{ "name": "Applied Developmental Psychopathology" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Moira joined CHSR in 2018. She is currently overseeing the Program Performance Evaluation for the New York State Birth Through Five Preschool Development Grant. She is also a researcher on the Healthy Families New York Evaluation where she provides training evaluation, oversees exit survey data collection and analysis, and analyzes data from the randomized control trial. Moira has also been involved in other CHSR projects, including the ECHO Collaborative evaluation. She is experienced in conducting research with preschoolers including observational methods and analysis."
+			},
+			{
+				"p2": "Moira received her Bachelor’s degree in Psychology from the University of South Florida, Masters in Psychology from the University of New Orleans, and PhD in Applied Developmental Psychopathology from the University of New Orleans."
+			}
+		]
+	},
+	{
+		"name": "Amanda Rózsavölgyi",
+		"name2": "Amanda Rózsavölgyi",
+		"position": "Research Scientist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 318",
+		"phone": "(518) 442-5758",
+		"email": "arozsavolgyi@albany.edu",
+		"path": "/staff/AR%C3%B3zsav%C3%B6lgyi",
+		"img": "/assets/headshots/amanda2.jpeg",
+		"specializations": [
+			{
+				"name": "Mixed-method program evaluation"
+			},
+			{ "name": "Qualitative data collection and analysis" },
+			{ "name": "Educational psychology" },
+			{ "name": "Adolescence education" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Amanda joined CHSR in 2018. She is currently involved in the New York State Delivery System Reform Incentive Payment (DSRIP) program implementation evaluation, as well as the Preschool Development Grant Birth Through Five needs assessment and program performance evaluation. Amanda has been involved in a number of other CHSR projects, including SAMHSA System of Care Expansion Grants and the ECHO Collaborative. She is experienced in mixed-method program evaluation and qualitative data collection and analysis."
+			},
+			{
+				"p2": "Amanda received a Master’s Degree in Educational Psychology with a Program Evaluation concentration and a Bachelor’s Degree in Adolescence Social Studies Education from The College of Saint Rose."
+			}
+		]
+	},
+	{
+		"name": "Amy B. Siskind",
+		"name2": "Amy B. Siskind",
+		"position": "Senior Research Support Specialist",
+		"area": "Researchers",
+		"location": "Richardson Hall, Room 313",
+		"phone": "(518) 591-5769",
+		"email": "absiskind@albany.edu",
+		"path": "/staff/absiskind",
+		"img": "/assets/headshots/absiskind.jpg",
+		"specializations": [],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Amy Siskind joined CHSR in 2021. She is currently working on the evaluation of the SAMSHSA System of Care Expansion Grants and the Preschool Development Grant Birth Through Five Initiative. She is experienced in qualitative and quantitative methodologies, including ethnographic and focus group research as well as survey and quasi-experimental design"
+			},
+			{
+				"p2": "Amy received her B.A. in Economic History from the City University of New York, holds an M.A. in Geography from Columbia University and a Ph.D. in Sociology from The New School for Social Research. She is the author of a book, The Sullivan Institute/Fourth Wall Community, as well as several book chapters about the impact of high control communities on children."
+			}
+		]
+	},
+	{
+		"name": "Chris Papas",
+		"name2": "Chris Papas",
+		"position": "IT Manager/Senior Programmer",
+		"area": "IT Staff",
+		"location": "Richardson Hall, Room 382",
+		"phone": "(518) 442-5425",
+		"email": "cpapas@albany.edu",
+		"path": "/staff/cpapas",
+		"img": "/assets/headshots/cpapas.jpg",
+		"specializations": [
+			{ "name": " Project Design" },
+			{ "name": "Project Management" },
+			{ "name": "Computer Programming and Database Design" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Chris is the IT manager for the CHSR IT department. He specializes in web programming and database design. He created and led the development of multiple web-based data collection applications, including Adolescent Pregnancy & Prevention Services, Healthy Families New York, Healthy Families New Jersey, Preventions Programs as well as numerous others. Before coming to CHSR, Chris was an IT Manager at a credit  union and a hospital. His experience includes web application programming, database design, data management, and project management."
+			},
+			{
+				"p2": "Chris received his Bachelor’s degree in History from Rutgers University and completed his MBA at the University at Albany, SUNY with a concentration in Information Technology."
+			},
+			{
+				"p3": "CHSR Featured Staff Member - March 2014<br />Chris is a well-respected member of the CHSR team. Consistently, he demonstrates his dedication to colleagues and clients through his consummate attention to detail and his exceptional customer relations. Appreciation of Chris’s professional attributes is evident in the email below: <quote>I would like to commend Chris Papas for his EXCELLENT customer service. He has been extremely helpful in my team’s quest to update data that was initially put into PATSys. It has been very frustrating, for my team, to learn a new system and try to correct data input issues simultaneously. Chris’ patience and responsiveness have been greatly appreciated. We are on the road to self sufficiency but if issues arise along the way I am glad that we can reach out to him for assistance.<br />Chris,<br />Thank you… You set the example of what great customer service should feel like!!!!<br /><br />Sincerely,<br />Iris J. Lapsley, MSW, LSW<br />Case Management Coordinator<br />Healthy Mothers, Healthy Babies/Healthy Start<br />Parents As Teachers<quote>"
+			}
+		]
+	},
+	{
+		"name": "Jay Robohn",
+		"name2": "Jay Robohn",
+		"position": "Senior Web Developer",
+		"area": "IT Staff",
+		"location": "Richardson Hall, Room 381",
+		"phone": "(518) 442-5424",
+		"email": "jrobohn@albany.edu",
+		"path": "/staff/jrobohn",
+		"img": "/assets/headshots/JR_big.JPG",
+		"specializations": [
+			{ "name": "Web development" },
+			{ "name": "Database design and implementation" },
+			{ "name": "Programming tools and platforms" }
+		],
+		"projects": [
+			{ "name": "Healthy Families New York", "path": "/hfny" },
+			{ "name": "Healthy Families New Jersey", "path": "/hfnj" },
+			{
+				"name": "Menu Labeling Evaluation Project",
+				"path": "/calorie_posting"
+			},
+			{
+				"name": "Albany County, New York System of Care Evaluation",
+				"path": "/system_care_albany"
+			}
+		],
+		"bio": [
+			{
+				"p1": "Jay works on systems and software development projects. His experience at the center includes application design and development, primarily to facilitate entry of forms and measurement of program outcomes, and maintenance and technical assistance of multi-user and county and statewide Management Information System (MIS) applications. Jay is currently involved in several .NET programming projects at CHSR, most significantly the Healthy Families New York (HFNY) web-based application. Jay is primarily responsible for the reporting interface and features and for the database schema used by the application, which also includes conversion of the previous FoxPro-based system’s data. He is also the resident utilities guy, which entails maintenance and upgrades of the Git source code repository and related tools. He is the chief web crawler for jQuery and other Javascript libraries used in our application framework."
+			},
+			{
+				"p2": "Jay provides phone and internet-based technical support for statewide users of the MIS. He also works on the Healthy Families New Jersey FamSys web-based data collection system. Previously, he was involved in the Albany County, New York System of Care Evaluation, assisting in the creation of several new features of the software created for the project. Prior to joining CHSR, Jay worked for a forensic CPA firm for five years and then switched careers to be employed by two IT/Database consulting firms in New York City for almost fifteen years."
+			},
+			{
+				"p3": "Jay received his Bachelor’s degree in Business Administration from Pace University. He has participated in various training and self-study activities to keep abreast of the latest technology in the application development field."
+			}
+		]
+	},
+	{
+		"name": "William O'Brien",
+		"name2": "William O'Brien",
+		"position": "Programmer/Analyst",
+		"area": "IT Staff",
+		"location": "Richardson Hall, Room 388",
+		"phone": "(518) 442-5039",
+		"email": "wobrien2@albany.edu",
+		"path": "/staff/bobrien",
+		"img": "/assets/headshots/bobrien4.JPG",
+		"specializations": [
+			{ "name": "Web Development" },
+			{ "name": "Information Systems" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "William joined CHSR in 2016. He is currently involved with the Healthy Families New York MIS and the NY System of Care MIS. William has been involved in a number of other CHSR projects, including New Jersey Parents as Teachers and the Pyramid Model Implementation Data System. He is experienced in .NET Web Applications, Azure cloud services and SQL database programming."
+			},
+			{
+				"p2": "William received his Bachelor's degree in Computer Science and Applied Mathematics from SUNY Albany in 2018 and an Associate's degree in Computer Information Systems from Hudson Valley Community College in 2016."
+			}
+		]
+	},
+	{
+		"name": "Ben Simmons",
+		"name2": "Ben Simmons",
+		"position": "Programmer/Analyst",
+		"area": "IT Staff",
+		"location": "Richardson Hall, Room 381",
+		"phone": "(518) 442-5761",
+		"email": "brsimmons@albany.edu",
+		"path": "/staff/bsimmons",
+		"img": "/assets/headshots/ben1.jpg",
+		"specializations": [
+			{ "name": "Full Stack .NET Web Application Development" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Ben joined CHSR in 2016. He is currently leading development of the Pyramid Model Implementation Data System (PIDS) and the CHSR's NYTD Tracking Application. Ben has been involved in a number of other CHSR projects, including developing Management Information Systems for Healthy Families New York, New Jersey Parents as Teachers, and Michigan Healthy Families. He is experienced in relational database design, front-end web page design, and integrating server-side business logic."
+			},
+			{
+				"p2": "Ben received his Associate’s degree in Computer Information Systems from Hudson Valley Community College in 2016 and received his Bachelor’s Degree in Information Technology with a focus in Web & Mobile Programming from Liberty University in 2018."
+			}
+		]
+	},
+	{
+		"name": "Cori Robohn",
+		"name2": "Cori Robohn",
+		"position": "IT Tech Specialist",
+		"area": "IT Staff",
+		"location": "Richardson Hall, Room 385",
+		"phone": "(518) 591-8610",
+		"email": "crobohn@albany.edu",
+		"path": "/staff/crobohn",
+		"img": "/assets/headshots/crobohn0.jpg",
+		"specializations": [
+			{ "name": "Tech Support" },
+			{ "name": "Data Collection" },
+			{ "name": "Focus Groups" }
+		],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Cori joined CHSR in 2012. She is currently the lead tech support specialist on several MIS applications and manages the HFNY website. Cori has been involved in a number of other CHSR projects, including NYTD, Community Nutrition Assessment and Innovations in Victim Services for Underserved Populations. She is experienced in website management and design, client/customer relations, focus group facilitating and data collection."
+			},
+			{
+				"p2": "Cori obtained her education from Hudson Valley Community College in Liberal Arts and Business Administration. Also, she possesses a HTML Certification in  Web Design from CodeAcademy and W3 Schools."
+			}
+		]
+	},
+	{
+		"name": "Helen Burns",
+		"name2": "Helen Burns",
+		"position": "Research Analyst/Interviewer",
+		"area": "Research Interviewers",
+		"location": "Remotely",
+		"phone": "(518) 369-0008",
+		"email": "hburns@albany.edu",
+		"path": "/staff/Hburns",
+		"img": "/assets/headshots/HBurnspic2.jpg",
+		"specializations": [{ "name": "Survey Data Collection" }],
+		"projects": [
+			{ "name": "The National Youth in Transition Database", "path": "/nytd" }
+		],
+		"bio": [
+			{
+				"p1": "Helen joined the Center for Survey Research under the employ of the New York State Research Foundation in working as a data collector/interviewer on various projects both in the public and private sector. In 2011, she joined the National Youth in Transition Database project continuing her research and analysis. Her years with NYSRF have primarily taken place at CFSR at Stony Brook in various roles including last position held as Personnel Management for hiring and training undergraduate and graduate students employed on campus at the Center for Survey Research. Previously, she worked for a market research firm as Personnel and Call Center Manager. Her interest is Pediatric Multiple Sclerosis research and awareness and is a member of the Pediatric Multiple Sclerosis Alliance since 2012."
+			},
+			{
+				"p2": "Helen has been employed with the Research Foundation since 2003 and has joined CHSR in January of this year as an interviewer for The National Youth in Transition Database (NYTD)."
+			}
+		]
+	},
+	{
+		"name": "Francis Colon",
+		"name2": "Francis Colon",
+		"position": "Research Interviewer",
+		"area": "Research Interviewers",
+		"location": "Remotely",
+		"phone": "",
+		"email": "fcolon@albany.edu",
+		"path": "/staff/fcolon",
+		"img": "/assets/headshots/francis_colon2.jpg",
+		"specializations": [{ "name": "Data Collection" }],
+		"projects": [
+			{ "name": "SAMHSA System of Care Expansion Grants", "path": "/achieve" }
+		],
+		"bio": [
+			{
+				"p1": "Francis joined CHSR in 2019 and is currently serving as the data collector in New York City. For nearly ten years, she has worked primarily in direct service as a service coordinator. During that time she received multiple trainings and certifications in crisis intervention, conflict resolution and client-centered planning. Francis received her Bachelor’s degree in Africana Studies and Gender Studies from CUNY - Hunter College and completed her Master’s degree in Public Administration with a concentration in Program Evaluation at the CUNY - Baruch College. She has a passion for helping others and would like to pursue a second master degree in Social Work. In the future, she would like to become a therapist, with an interest in children and family therapy."
+			}
+		]
+	},
+	{
+		"name": "Shana Guiffrida",
+		"name2": "Shana Guiffrida, B.A.",
+		"position": "Research Analyst/Interviewer",
+		"area": "Research Interviewers",
+		"location": "Remotely",
+		"phone": "(315) 253-1054",
+		"email": "sguiffrida@albany.edu",
+		"path": "/staff/sguiffrida",
+		"img": "/assets/headshots/sguiffrida2.jpg",
+		"specializations": [{ "name": "Data Collection" }],
+		"projects": [],
+		"bio": [
+			{
+				"p1": "Shana joined CHSR in 2018 and currently performs data collection for two SAMHSA grants in Cayuga County. She brings a strong background in accounting and law office support, as well as nearly two decades of service as a behavioral intervention specialist with at-risk youth in public, private, and day treatment school settings. Shana also served persons with substance use disorder within the inpatient rehabilitation setting and continues to serve as a certified addiction recovery coach."
+			},
+			{
+				"p2": "Shana holds a Bachelor’s in Child Development from Empire State College, will soon complete the requirements for licensure as a Chemical Dependency Counselor at Tompkins Cortland Community College, and will begin earning an MSW in Fall 2020 at the University of Buffalo."
+			}
+		]
+	},
+	{
+		"name": "Wendy Falzone",
+		"name2": "Wendy Falzone, M.A.",
+		"position": "Research Analyst/Interviewer",
+		"area": "Research Interviewers",
+		"location": "Remotely",
+		"phone": "",
+		"email": "wfalzone@albany.edu",
+		"path": "/staff/wfalzone",
+		"img": "/assets/headshots/wendyfal2.jpg",
+		"specializations": [{ "name": "Data Collection and Management" }],
+		"projects": [
+			{ "name": "SAMHSA System of Care Expansion Grants", "path": "/achieve" }
+		],
+		"bio": [
+			{
+				"p1": "Wendy joined CHSR in June 2017 and is currently serving as data collector for Erie County: NYS System of Care evaluation project. Her background includes working in a daycare setting and evaluating young children by accessing their strengths and needs on a continual basis. She also volunteers in her faith community as an educator and by serving on two boards. Experience in data collection and analysis, in part, stems from a degree in Geographical Information Systems."
+			},
+			{
+				"p2": "Wendy received her Master’s Degree in Geography (GIS) from the University at Buffalo, SUNY."
+			}
+		]
+	}
+]
