@@ -7,11 +7,13 @@ const {json, area} = Astro.props;
 
 {json.map((staffMember) => (
 	<div class="card">
-		<a href={staffMember.path}>
+		<a href={staffMember.path} staffName={staffMember.path}>
 			<img src={staffMember.img} alt={staffMember.name2} />
 		</a>
 		<div class="bio-nametitle">
-			<a class="staff-name" href={staffMember.path}>{staffMember.name}</a>
+			<a class="staff-name" href={staffMember.path} staffName={staffMember.path}>
+				{staffMember.name}
+			</a>
 			<br />
 			<span class="staff-position">{staffMember.position}</span>
 			<p class="bio-info">
@@ -19,7 +21,8 @@ const {json, area} = Astro.props;
 				<br />
 				{staffMember.phone}
 				<br />
-				{staffMember.email && <a href="mailto:${staffMember.email}">Email {staffMember.name.substring(0, staffMember.name.indexOf(" "))}</a>}
+				{staffMember.email && <a href="mailto:${staffMember.email}">Email 
+					{staffMember.name.substring(0, staffMember.name.indexOf(" "))}</a>}
 			</p>
 		</div>
 	</div>

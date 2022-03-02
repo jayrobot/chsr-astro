@@ -5,10 +5,10 @@
 import BaseLayout from "../../layouts/BaseLayout.astro"
 import StaffCardList from "../../components/StaffCardList.astro"
 
-// const response = await fetch('../../Public/data/staff.json');
+// const response = await fetch('../../data/staff.json');
 // const data = await response.json();
-//import json from "../../../public/data/staff.json"
-import json from "/public/data/staff.json"
+//import json from "../../../data/staff.json"
+import json from "../../data/staff.json"
 
 const admin = json.filter(StaffMember  => {
 	return StaffMember.area === "Administration"
